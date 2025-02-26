@@ -10,7 +10,7 @@ try:
     model_predictions = pd.read_csv(r'C:\Users\user\Desktop\Kifiya\Birhan_Energies\data\model_predictions.csv')
     garch_volatility = pd.read_csv(r'C:\Users\user\Desktop\Kifiya\Birhan_Energies\data\garch_volatility.csv')
     #event_data = pd.read_csv(r'C:\Users\user\Desktop\Kifiya\Birhan_Energies\data\event_data.csv')
-      #event_data = pd.read_csv(r'C:\Users\user\Desktop\Kifiya\Birhan_Energies\data\event_data.csv')
+    
     model_metrics = {"ARIMA_RMSE": 0.0226, "ARIMAX_RMSE": 0.0180, "LSTM_RMSE": 0.0227, "GARCH_Volatility_RMSE": 0.00075}
 except FileNotFoundError:
     historical_prices = None
